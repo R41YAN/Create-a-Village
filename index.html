@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sun">
+
+        <button class="btn" onclick="document.getElementById('sun').src='images/sun on.gif'"> sun - On</button>
+
+        <img id="sun" src="images/sun on.gif">
+
+        <button class="btn" onclick="document.getElementById('sun').src='images/sun off.png'"> sun - Off</button>
+    </div>
+    
+    <div class="house">
+
+        <button class="btn" onclick="document.getElementById('house').src='images/open door.gif'"> House - On(Opening)</button>
+
+        <img id="house" src="images/open door.gif">
+    
+        <button class="btn" onclick="document.getElementById('house').src='images/close door.png'"> House - Off(Closing)</button>
+    </div>
+    
+    <div class="car">
+
+        <button class="btn" onclick="document.getElementById('car').src='images/car off.png'"> Car - Off(Not Running)</button>
+
+        <img id="car" src="images/car off.png">
+
+        <button class="btn" onclick="document.getElementById('car').src='images/car on.gif'"> Car - On(Running)</button>
+
+    </div>
+    
+    <div class="river">
+        
+        <button class="btn" onclick="document.getElementById('river').src='images/flowing stop.png'"> River - Off(Not Flowing)</button>
+
+        <img id="river" src="images/river stop.png">
+
+        <button class="btn" onclick="document.getElementById('river').src='images/flowing river.gif'"> River - On(Flowing)</button>
+
+    </div>
+
+</body>
+</html>
